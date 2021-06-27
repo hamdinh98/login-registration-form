@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
                 <h1 class="login-title text-dark">Register</h1>
                 <p class="p-1 m-0 font-ubuntu text-black-50">Register and enjoy additional features</p>
 
-                <span class="font-ubuntu text-black-50">I already have <a href="login.php">Login</a></span>
+                <span class="font-ubuntu text-black-50">I already have an account <a href="login.php">Login</a></span>
             </div>
             <div class="d-flex justify-content-center">
                 <form action="register.php" method="post" enctype="multipart/form-data" id="reg-form">
