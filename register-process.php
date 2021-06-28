@@ -53,7 +53,8 @@ if (empty($error)) {
             break;
         }
     }
-    if (mysqli_query($connect, $query) && !$exist) {
+    if (!$exist) {
+        mysqli_query($connect, $query);
         $resultSubmit = '<div class="alert alert-success">
         <strong>Success!</strong> successfully registered you must to login to access to the main page
       </div>';

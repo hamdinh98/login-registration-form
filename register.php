@@ -16,10 +16,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         <h2>Making life tougher.</h2>
         <div class="col-lg-4 offset-lg-2">
             <div class="text-center pb-5">
-                <h1 class="login-title text-dark">Register</h1>
-                <p class="p-1 m-0 font-ubuntu text-black-50">Register and enjoy additional features</p>
+                <h1 class="login-title">Register</h1>
+                <p class="p-1 m-0 font-ubuntu text-white-50">Register and enjoy additional features</p>
 
-                <span class="font-ubuntu text-black-50">I already have an account <a href="login.php">Login</a></span>
+                <span class="font-ubuntu text-white-50">I already have an account <a href="login.php">Login</a></span>
             </div>
             <div class="d-flex justify-content-center">
                 <form action="register.php" method="post" enctype="multipart/form-data" id="reg-form">
@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
                     <div class="form-check form-check-inline">
                         <input type="checkbox" name="agreement" class="form-check-input" required>
-                        <label for="agreement" class="form-check-label font-ubuntu text-black-50">I agree <a href="#">term, conditions, and policy </a>(*) </label>
+                        <label for="agreement" class="form-check-label font-ubuntu text-white-50">I agree <a href="#">term, conditions, and policy </a>(*) </label>
                     </div>
 
                     <div class="submit-btn text-center my-5">
