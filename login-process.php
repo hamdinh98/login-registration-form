@@ -18,7 +18,7 @@ if (!empty($emailLogin) && !empty($passwordLogin)) {
         }
     }
 
-    $found ? header('location:fox/index.html') : $resultLogin = '<div class="alert alert-warning">
+    $found ? header('location:main-page.php') : $resultLogin = '<div class="alert alert-warning">
     <strong>Warning!</strong> please check your information
   </div>';
 }
